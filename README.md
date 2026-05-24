@@ -16,7 +16,7 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 4. [Quickstart](#quickstart)
 5. [Chat transcript logging](#chat-transcript-logging)
 6. [Submission](#submission)
-7. [Judge interview](#judge-interview)
+7. [Final 1-on-1 Interview](#final-1-on-1-interview)
 8. [Evaluation criteria](#evaluation-criteria)
 9. [Recommended approaches](#recommended-approaches)
 10. [Common pitfalls](#common-pitfalls)
@@ -124,17 +124,17 @@ You will upload **four** files:
 
 ---
 
-## Judge interview
+## Final 1-on-1 Interview
 
-After a successful submission, your AI Judge interview will happen within a few hours after the challenge ends. It will stay open for the next 4 hours.
+After a successful submission, you will be invited to a final 1-on-1 interview with our Engineering team, which is the final step before an offer.
 
-The AI Judge will have access to your submission and the interview has three parts:
+The team will have reviewed your code and the interview has three parts:
 
-1. **Architecture deep-dive** (10 min) — explain your design decisions and trade-offs
-2. **Live red-teaming** (10 min) — the Judge presents new adversarial tickets and you run your agent live. You cannot modify code during this phase.
-3. **Self-assessment review** (10 min) — discuss your `code/ARCHITECTURE.md` self-assessment, your predictions vs. actual results
+1. **Architecture deep-dive** (15 min) — explain your design decisions, trade-offs, and how you used AI tools to build your solution.
+2. **Live red-teaming** (15 min) — the interviewers will present new adversarial tickets. You will run your agent live and defend the outputs.
+3. **Self-assessment review** (15 min) — discuss your `code/ARCHITECTURE.md` self-assessment and potential failure modes.
 
-Keeping your camera on is mandatory. The interview is 30 minutes long.
+The interview is 45 minutes long.
 
 ---
 

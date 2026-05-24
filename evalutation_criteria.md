@@ -151,28 +151,24 @@ We also re-run your code against the visible test set to verify it produces the 
 
 ---
 
-## 10. AI Judge Interview
+## 10. Final 1-on-1 Interview
 
-After submission, a 30-minute interview with the AI Judge (camera on, mandatory).
+After submission, you will be invited to a 45-minute 1-on-1 interview with the Engineering team (camera on, mandatory). This is the final step before an offer.
 
-The interview has **three** components:
+The interview has three components:
 
-### Part 1: Architecture Deep-Dive (10 minutes)
-- Walk through your design decisions
-- Explain why you chose your retrieval strategy, safety layers, and output pipeline
+### Part 1: Architecture Deep-Dive (15 minutes)
+- Walk through your design decisions and explain how you built your agent
 - Discuss trade-offs you considered and rejected
 
-### Part 2: Live Red-Teaming (10 minutes)
-- The AI Judge will present 3-5 **new adversarial tickets** your agent has never seen
-- You will run your agent live against these tickets and discuss the results
-- The Judge will probe for failure modes based on your architecture
-- **You cannot modify your code during this phase** — your submitted code must handle these tickets
+### Part 2: Live Red-Teaming (15 minutes)
+- The interviewers will present 3-5 **new adversarial tickets** your agent has never seen
+- You will run your agent live against these tickets and defend the results
+- **You cannot modify your code during this phase**
 
-### Part 3: Self-Assessment Review (10 minutes)
+### Part 3: Self-Assessment Review (15 minutes)
 - Discuss your self-assessment from `code/ARCHITECTURE.md`
 - Were your predictions about the hidden test set accurate?
-- How did your actual performance compare to your self-rated scores?
-- What would you change with more time?
 
 Scoring emphasis:
 - **Honest self-awareness** scores better than overconfidence

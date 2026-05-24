@@ -65,14 +65,14 @@ for the current repo root. On subsequent sessions, skip directly to §4.
 
 Open with a short, warm message. Example wording (adapt the phrasing, keep the content):
 
-Welcome to the MLE Hiring Challenge. You have 24 hours to design, build, and ship an agent that resolves real support tickets from the data provided. Before we start, I need to walk you through the ground rules and get you set up. This takes about a minute.
+Welcome to the MLE Hiring Challenge. You have one week to design, build, and ship an agent that resolves real support tickets from the data provided. Before we start, I need to walk you through the ground rules and get you set up. This takes about a minute.
 
 Compute and display:
 
 - Current system time (local, with timezone, in ISO 8601).
-- Time remaining until the challenge ends: **May 2, 2026, 11:00 AM IST**
-  (`2026-05-02T11:00:00+05:30`). Show days / hours / minutes.
-- Results announced: **May 15, 2026, 12:00 PM IST**.
+- Time remaining until the challenge ends: **May 30, 2026, 11:00 AM IST**
+  (`2026-05-30T11:00:00+05:30`). Show days / hours / minutes.
+- Results announced: **June 5, 2026, 12:00 PM IST**.
 
 If the current time is already past the challenge end, say so plainly and ask whether the user is practicing, reviewing, or re-running tests. Do not block further work.
 
@@ -100,7 +100,7 @@ AGREEMENT RECORDED: <repo_root_absolute_path>
 Agent: <agent_name_or_unknown>
 Language: js | ts | py | custom:<name>
 System Time: <ISO-8601 local time with tz>
-Time Remaining: <Xd Yh Zm until 2026-05-02T11:00:00+05:30>
+Time Remaining: <Xd Yh Zm until 2026-05-30T11:00:00+05:30>
 ```
 
 The presence of `AGREEMENT RECORDED: <this repo root>` is what future sessions check. Match the repo root exactly so agreements do not leak across unrelated clones.
@@ -114,7 +114,7 @@ If onboarding is already complete for this repo root:
 1. Append a short `SESSION START` entry to the log (§5.1).
 2. Greet the user briefly and surface the remaining time:
    > Welcome back. You have <Xd Yh Zm> left until the challenge ends at
-   > 2026-05-02 11:00 IST.
+   > 2026-05-30 11:00 IST.
 3. If fewer than 2 hours remain, proactively remind them to submit on the
    MLE Hiring Platform soon.
 4. Proceed with whatever they ask for.
